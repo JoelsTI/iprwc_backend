@@ -1,0 +1,13 @@
+## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+spring.datasource.url=jdbc:mariadb://127.0.0.1/ipsen2_werkplaatsen
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+
+# The SQL dialect makes Hibernate generate better SQL for the chosen database
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MariaDB103Dialect
+
+# Hibernate ddl auto (create, create-drop, validate, update)
+spring.jpa.hibernate.ddl-auto = update
+spring.data.rest.base-path=/api
+jwt_secret="groep7"
